@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+section header{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    background-color: #3C3346;
+}
+
+section #meio{ 
+    background-color: #827C89;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section #meio #perguntas{
+    margin-top: 50px;
+    background-color: #D9D9D9;
+    width: 70%;
+    display: flex;
+
+    border: solid red 9px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+section #meio #perguntas #pergunta{
+    padding-block: 10%;
+    padding-left: 15%;
+}
+
+section #meio #alternativas{
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "A B"
+    "C D";
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 19%;
+}
+
+section #meio #alternativas #abox,#bbox,#cbox,#dbox{
+    background-color:#D9D9D9 ;
+    border: solid red 7px;
+    border-radius: 50px;
+}
+
+body { overflow-x: hidden; }
+
+#abox{
+    padding-block: 2%;
+    grid-area: A;
+    width: 50%;
+    margin-bottom: 10%;
+    width: 100%
+}
+ #a,#b,#c,#d{
+    width: 80%;
+    margin-left: 10%;
+ }
+#bbox{
+    grid-area: B;
+    
+    margin-bottom: 10%;
+    width: 100%
+}
+
+#cbox{
+    grid-area: C;
+   
+    width: 100%
+}
+
+#dbox{
+    grid-area: D;
+   
+    width: 100%
+}
+
+footer{
+    background-color: #C71F1F;
+    width: 100vw;
+    padding-top: 2.3%;
+}

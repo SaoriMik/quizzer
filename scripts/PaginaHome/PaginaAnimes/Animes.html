@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="/quizzer/scripts/PaginaHome/PaginaAnimes/animes.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SelectionAnimes</title>
+</head>
+<body>
+    <header>
+        <img src="/quizzer/fotos/image 1.png" alt="">
+    </header>
+    <section id="Games">
+        <section>
+            <div id="DragonBall">
+                <img src="/quizzer/fotos/animes/download 8 (1).png" onclick="navegaDragonBall()" alt="">
+            </div>
+            <div id="FMA">
+                <img src="/quizzer/fotos/animes/download 7 (1).png" onclick="navegaFMA()" alt="">
+            </div>
+        <div id="HunteXHunter">
+            <img src="/quizzer/fotos/animes/download 5 (1).png" onclick=" NavegaHunter()" alt="">
+        </div>
+    </section>
+    <section id="Mid">
+        <div id="Pokemon">
+            <img src="/quizzer/fotos/animes/download 6 (1).png" onclick="navegaPokemon()" alt="">
+        </div>
+            <div id="DemonSlayer">
+                <img src="/quizzer/fotos/animes/download 11 (1).png" onclick="navegaDM()" alt="">
+            </div>
+        <div id="StevenUniverse">
+            <img src="/quizzer/fotos/animes/download 3 (1) copy.png" onclick="navegaStevenUni()" alt="">
+        </div>
+    </section>
+    <section>
+        <div id="naruto">
+            <img src="/quizzer/fotos/animes/download 1 (1).png" onclick="naveganaruto()" alt="">
+        </div>
+        <div id="BlackClover">
+            <img src="/quizzer/fotos/animes/download 9 (1).png" onclick="navegaBC()" alt="">
+        </div>
+        <div id="OnePiece">
+            <img src="/quizzer/fotos/animes/download 4 (1).png" onclick="navegaOnePiece()" alt="">
+        </div>
+    </section>
+</section>
+<script>
+    function navegaHunterXHunter() {
+        console.log("NavegaHunter()"); // Adicione esta linha
+        window.location.href = "/PerguntaAnimes/hunterxhunter/pergunta.html";
+    }
+</script>
+
+
+<footer>
+
+</footer>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        body {
+            background-color: #827C89;
+        }
+
+        header {
+            display: flex;
+            background-color: #3C3346;
+            justify-content: center;
+            width: 100%;
+            height: 20%;
+        }
+
+        header img {
+        width: 40%;
+        }
+
+        #Games {
+        padding-block: 9.72%;
+        display: flex;
+        flex-direction: column;
+        }
+
+        #Games section {
+        display: flex;
+        justify-content: space-evenly;
+        }
+
+        #Mid {  
+        margin-block: 5%;
+        }
+
+        footer{
+        background-color: #C71F1F;
+        width: 100%;
+        height: 10%;
+        }
+    </style>
+
+
+
+</body>
+</html>
